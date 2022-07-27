@@ -1,0 +1,284 @@
+@import "../site/fonts/stylesheet.css";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Gilroy';
+}
+
+header{
+    /* height: 1080px; */
+    background: #f2be90;
+}
+header nav .container{
+    width: 1525px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+}
+nav{
+    /* width: 1525px; */
+    padding-top: 100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    width: 750px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul a{
+    text-decoration: none;
+    font-size: 30px;
+    color: #6f1730;
+    align-items: center;
+    /* padding: 15px 26px; */
+    transition: 1s;
+}
+
+nav ul a:hover{
+    /* padding: 15px 26px 16px;
+    border: 1px solid white;
+    border-radius: 20px;
+    background-color: #ebaf2a;
+    color: #6f1730; */
+    /* align-items: center;
+    text-transform: uppercase;
+    font-weight: 900; */
+    
+    color: #ebaf2a;
+}
+
+.baby{
+    background: #f2be90;
+    padding-top: 217px;
+    height: 950px;
+}
+
+.baby .container{
+    margin: auto;
+    width: 1350px;
+    display: flex;
+}
+
+.baby .container h1{
+    font-size: 171px;
+    color: #6f1730;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.baby .container .baby_left p{
+    font-size: 18px;
+    width: 510px;
+    color: #6f1730;
+    padding-left: 10px;
+}
+.baby .container .baby_left a h6{
+    margin: 84px 0 0 10px;
+    font-size: 55px;
+    color: white; 
+    background-color: #6f1730;
+    padding: 21px 53px 19px;
+    border-radius: 25px;
+    font-weight: normal;
+    width: 370px;
+    transition: 1s;
+}
+.baby .container .baby_left a{
+    text-decoration: none;
+}
+.baby .container .baby_left a h6:hover{
+    background-color: #ebaf2a;
+    color: #6f1730;
+}
+.first{
+    position: relative;
+    top: -462px;
+    left: -50px;
+}
+.second{
+    position: relative;
+    top: -105px;
+    left: 165px;
+}
+.about .container{
+    margin: auto;
+    width: 1350px;
+    height: 850px;
+}
+.about .container h1{
+    font-size: 221px;
+    color: #6f1730;
+    font-weight: 900;
+    margin-top: 304px;
+    text-transform: uppercase;
+   
+}
+.about .container p{
+    color: #6f1730;
+    font-size: 22px;
+    width: 607px;
+    margin-left: 10px;
+    font-weight: normal;
+}
+.about .container a{
+    background-color: #6f1730;
+    color: #fff;
+    margin-left: 10px;
+    text-decoration: none;
+    padding: 10px 29px 10px;
+    position: absolute;
+    margin-top: 63px;
+    font-size: 26px;
+    border-radius: 27px;
+    transition: 1s;
+}
+.about .container a:hover{
+    background-color: #ebaf2a;
+    color: #6f1730;
+}
+
+.about .container img{
+    position: relative;
+    top: -462px;
+    left: 160px;
+    z-index: 1;
+    width: 1358px;
+}
+
+.index{
+    position: relative;
+    z-index: 2;
+}
+.home{
+    margin-top: 73px;
+}
+.home .container{
+    margin: auto;
+    width: 1350px;
+    /* outline: 1px solid red; */
+    /* margin-top: 73px; */
+}
+.home .container .nav{
+    display: flex;
+    justify-content: flex-end;
+}
+.home .container .nav ul{
+    width: 766px;
+    display: flex;
+    justify-content: space-between;
+    /* outline: 1px solid red; */
+    list-style: none;
+}
+.home .container .nav ul a{
+    text-decoration: none;
+    color: #6f1730;
+    transition: 1s;
+    font-size: 26px;
+    font-weight: bold;
+}
+.home .container .nav ul a:hover{
+    color: #ebaf2a;
+}
+.line{
+    width: 1525px;
+    height: 4px;
+    background-color: #6f1730;
+    margin: 18px auto auto;
+}
+.home .container .sum{
+    display: flex;
+    justify-content: space-between;
+    text-align: end;
+    margin-top: 36px;
+    margin-bottom: 204px;
+}
+.home .container .sum .right h1{
+    font-size: 97px;
+    color: #6f1730;
+    font-weight: 900;
+    margin-top: 25px;
+}
+.home .container .sum .right p{
+    margin-top: 22px;
+    font-size: 27px;
+    font-weight: normal;
+    color: #6f1730;
+    width: 640px;
+}
+
+.card .container{
+    margin: auto;
+    width: 1525px;
+    display: flex; 
+    justify-content: space-between;
+}
+
+.service .container{
+    width: 1525px;
+    margin: 185px auto 180px;
+    text-align: end;
+    display: flex;
+    justify-content: space-between;
+}
+.service .container .right{
+    z-index: 1;
+    margin-left: -383px;
+}
+.service .container .right h1{
+    font-size: 230px;
+    font-weight: 900;
+    color: #6f1730;
+    text-transform: uppercase;
+    position: relative;
+    margin-right: -14px;
+}
+.service .container .right p{
+    width: 725px;
+    font-size: 29px;
+    color: #6f1730;
+    margin-left: auto;
+}
+.service .container .right h2{
+    margin-top: 48px;
+    font-size: 58px;
+    color: #6f1730;
+    width: 1180px;
+    text-transform: uppercase;
+    padding: 97px 110px 97px 400px;
+    background-color: #f2be90;
+    border-radius: 36px;
+}
+
+.service .container img{
+    position: relative;
+    z-index: 2;
+    margin-top: 30px;
+}
+
+.footer .container{
+    width: 1525px;
+    margin: auto;
+    background: url(images/duck_03.png);
+    height: 540px;
+    margin-bottom: 86px;
+}
+.footer .container .duck{
+    width: 993px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 137px;
+}
